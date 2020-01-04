@@ -1,0 +1,20 @@
+accounts:
+- '962390577453'
+archive_name: cloud-iac-lab-farid-delgado/dev/dryrun/config.zip
+asset_insight_id: '204383'
+deployment_engine_version: 1.5.3
+environment_order:
+- dev
+- prod
+github_branch: master
+github_owner: delgadofarid
+github_repo: nuvola_lab9
+log_retention: 90
+project_code: a204383-service-cloud-iac-lab-farid-delgado
+project_name: cloud-iac-lab-farid-delgado
+region: us-east-1
+resource_owner: farid.delgado@thomsonreuters.com
+service_name: service
+source_bucket: a204383-cloud-iac-lab-farid-delgado-us-east-1-cfn
+template_bucket_name: a204383-cloud-iac-lab-farid-delgado-us-east-1-cfn
+template_key_prefix: service
