@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Template to create a S3 bucket'
+Parameters:
+  BucketName:
+    Type: String
+Outputs:
+  BucketName:
+    Description: S3 bucket name
+    Value: !Ref S3Bucket
+Resources:
+  S3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: !Ref BucketName
+      Tags:
+        -
+          Key: "tr:application-asset-insight-id"
+          Value: "204383"
+        -
+          Key: "tr:resource-owner"
+          Value: "farid.delgado@thomsonreuters.com"
+        -
+          Key: "tr:environment-type"
+          Value: DEVELOPMENT
+        -
+          Key: "service-name"
+          Value: service
+      VersioningConfiguration:
+        Status: Enabled

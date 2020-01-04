@@ -1,0 +1,10 @@
+# Stack config
+template_path: templates/s3bucket.yaml
+
+parameters:
+  BucketName: "a204383-s3-bucket-prod-farid-delgado"
+
+stack_tags:
+  tr:application-asset-insight-id: 204383
+  tr:environment-type: PRODUCTION
+  tr:resource-owner: farid.delgado@thomsonreuters.com
